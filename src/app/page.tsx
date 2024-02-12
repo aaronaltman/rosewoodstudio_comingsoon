@@ -5,13 +5,13 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center min-h-screen space-y-6 py-10 px-10">
       <h1 className="text-4xl">Under Construction: We’ll be blooming soon!</h1>
       <p className="text-4xl">Contact:</p>
-      <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-3">
-        <p className="text-3xl">
+      <div className="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-3 max-w-4xl mx-auto">
+        <p className="text-xl">
           Sasha Fierro:Lead Designer and Founder
           <br />
           Sasha@RosewoodStudioATL.com
         </p>
-        <p className="text-3xl">
+        <p className="text-xl">
           {" "}
           Farris France Managing Partner Farris@RosewoodStudioATL.com
         </p>
