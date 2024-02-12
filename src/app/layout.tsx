@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="garden">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex flex-col min-h-screen max-w-5xl mx-auto bg-[#ADBFAB]">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
