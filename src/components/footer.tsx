@@ -11,7 +11,7 @@ export default function Footer() {
       </div>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a href="https://instagram.com/Rosewoodstudioatl">
-          <InstagramIcon size={24} />
+          <InstagramIcon size={35} />
         </a>
       </nav>
     </footer>

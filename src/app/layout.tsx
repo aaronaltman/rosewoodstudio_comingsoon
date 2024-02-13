@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const lato = Lato({
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Rosewood Studio",
@@ -16,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="garden">
-      <body className={inter.className}>
+      <body className={lato.className}>
         <div className="flex flex-col min-h-screen max-w-5xl mx-auto bg-[#ADBFAB]">
           {children}
         </div>
