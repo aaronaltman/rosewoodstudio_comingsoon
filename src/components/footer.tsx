@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between mt-auto footer items-center p-4 bg-[#ADBFAB]text-neutral-content">
+    <footer className="flex justify-between mt-auto footer items-center p-4 bg-[#ADBFAB]text-neutral-content border border-top">
       <div className="flex justify-center items-center gap-x-10">
         <Image src="/logo-white.png" alt="logo" width={80} height={80} />
         <p className="font-lato">Copyright © 2024 - All right reserved</p>
