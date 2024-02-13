@@ -18,6 +18,7 @@ export default function SingleCard({ url }: SingleCardProps) {
           alt="Shoes"
           width={url.width}
           height={url.height}
+          className="rounded-t-lg object-cover w-full h-48 sm:h-64 md:h-80 lg:h-96 xl:h-80"
         />
       </figure>
     </div>
