@@ -23,4 +23,22 @@ export const IMAGEURLS = [
     width: 1929,
     height: 2560,
   },
+  {
+    src: "https://wp.rapidinsights.ai/wp-content/uploads/2024/02/IMG_7573_Original-scaled.jpeg",
+    alt: "Flower Arrangement",
+    width: 1929,
+    height: 2560,
+  },
+  {
+    src: "https://wp.rapidinsights.ai/wp-content/uploads/2024/02/Rw-pics-scaled.jpg",
+    alt: "Flower Arrangement",
+    width: 1929,
+    height: 2560,
+  },
+  {
+    src: "https://wp.rapidinsights.ai/wp-content/uploads/2024/02/TeresaEricAniShoot9-scaled.jpeg",
+    alt: "wedding Flower Arrangement",
+    width: 1707,
+    height: 2560,
+  },
 ];
