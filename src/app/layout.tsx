@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Lato } from "next/font/google";
+import { Lato, Cardo } from "next/font/google";
 import "./globals.css";
 
 const lato = Lato({
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
+const cardo = Cardo({
   weight: ["400", "700"],
   style: ["normal", "italic"],
   subsets: ["latin"],
