@@ -1,12 +1,23 @@
+import Image from "next/image";
 import React from "react";
 
-export default function SingleCard() {
+type SingleCardProps = {
+  url: {
+    src: string;
+    width: number;
+    height: number;
+  };
+};
+
+export default function SingleCard({ url }: SingleCardProps) {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+    <div className="card card-compact bg-base-100 shadow-xl">
       <figure>
-        <img
-          src="https://drive.google.com/drive/u/0/folders/1SgEwYMyx-r_J09GGujin7h5xUmkfWy7x"
+        <Image
+          src={url.src}
           alt="Shoes"
+          width={url.width}
+          height={url.height}
         />
       </figure>
     </div>
