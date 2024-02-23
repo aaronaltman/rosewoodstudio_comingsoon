@@ -7,7 +7,7 @@ export default function IntroHero() {
         we’re blooming: thank you for your patience
       </h2>
       <div className="flex flex-wrap justify-around">
-        <div className="py-10 md:py-0">
+        <div className=" py-10 md:py-0">
           <p className="font-bold">Sasha Fierro</p>
           <p>Lead Designer and Founder</p>
           <a
