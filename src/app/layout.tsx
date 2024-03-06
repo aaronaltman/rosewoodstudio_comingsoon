@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="garden">
+    <html lang="en" data-theme="light">
       <body className={lato.className}>
         <div className="flex flex-col min-h-screen max-w-5xl mx-auto bg-[#FFFFF0]">
           {children}
