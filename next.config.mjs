@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["wp.rapidinsights.ai"],
+    domains: ["wp.rapidinsights.ai", "rosewoodstudio.wpenginepowered.com"],
   },
 };
 

@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="garden">
       <body className={lato.className}>
-        <div className="flex flex-col min-h-screen max-w-5xl mx-auto bg-[#ADBFAB]">
+        <div className="flex flex-col min-h-screen max-w-5xl mx-auto bg-[#FFFFF0]">
           {children}
         </div>
       </body>
