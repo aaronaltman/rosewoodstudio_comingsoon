@@ -42,3 +42,26 @@ export const IMAGEURLS = [
     height: 2560,
   },
 ];
+
+export const PRIMARYNAVIGATION = [
+  {
+    label: "Home",
+    href: "/",
+  },
+  {
+    label: "Weddings + Events",
+    href: "/about",
+  },
+  {
+    label: "Subscriptions",
+    href: "/services",
+  },
+  {
+    label: "Our Shop",
+    href: "/gallery",
+  },
+  {
+    label: "About + Contact",
+    href: "/contact",
+  },
+];
