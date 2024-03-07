@@ -62,6 +62,6 @@ export const PRIMARYNAVIGATION = [
   },
   {
     label: "About + Contact",
-    href: "/contact",
+    href: "/about",
   },
 ];

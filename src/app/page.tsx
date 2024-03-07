@@ -1,19 +1,17 @@
 import IntroHero from "@/components/IntroHero";
-import Footer from "@/components/footer";
 import Header from "@/components/header";
-import { InstagramLogoIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col flex-wrap">
         <Header />
         <IntroHero />
         <div className="flex gap-x-2 justify-center items-center">
           <svg
-            width="60"
-            height="60"
+            width="50"
+            height="50"
             viewBox="0 0 15 15"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +30,7 @@ export default function Home() {
             height={100}
           />
         </div>
-        <p className="py-3 text-center text-lg">
+        <p className="py-3 text-center uppercase">
           Located inside Casseroles. 1393 north highland ave northeast, Atlanta
           Georgia, 30306, United States.
         </p>
