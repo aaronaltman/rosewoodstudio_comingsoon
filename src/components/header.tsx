@@ -5,7 +5,7 @@ import { PRIMARYNAVIGATION } from "@/constants/image-gallery";
 
 export default function Header() {
   return (
-    <header className="flex flex-col bg-[#FFFFF0] h-75 w-full">
+    <header className="flex flex-col bg-[#FFFFF0] h-75 w-full justify-center items-center">
       <Link className="flex justify-center items-center w-full" href="/">
         <Image
           className="object-contain w-75 h-[75]"
@@ -15,7 +15,7 @@ export default function Header() {
           height={300}
         />
       </Link>
-      <nav className="flex items-center justify-center ml-10 w-full py-4">
+      <nav className="flex flex-wrap items-center justify-center w-full py-4">
         <ul className="flex flex-wrap justify-center items-center space-x-8">
           {PRIMARYNAVIGATION.map((navItem) => (
             <li key={navItem.href}>

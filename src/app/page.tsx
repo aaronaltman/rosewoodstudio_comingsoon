@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col flex-wrap">
+      <div className="">
         <Header />
         <IntroHero />
-        <div className="flex gap-x-2 justify-center items-center">
+        <div className="flex justify-center items-center gap-x-2 ">
           <svg
             width="50"
             height="50"
