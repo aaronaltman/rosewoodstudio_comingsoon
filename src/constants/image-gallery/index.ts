@@ -54,11 +54,11 @@ export const PRIMARYNAVIGATION = [
   },
   {
     label: "Subscriptions",
-    href: "/services",
+    href: "/subscriptions",
   },
   {
     label: "Our Shop",
-    href: "/gallery",
+    href: "/shop",
   },
   {
     label: "About + Contact",
