@@ -7,7 +7,7 @@ export default function AboutPage() {
       <Header />
       <div className="flex flex-col justify-between items-center">
         <h1 className="text-3xl py-10">OUR MISSION</h1>
-        <p className="max-w-3xl mx-auto text-center leading-7">
+        <p className="max-w-3xl mx-auto text-center leading-7 font-Cardo">
           Sasha and Farris bonded over their love for creating beautiful
           experiences for their friends, family, and community. As Rosewood
           Studio continues to grow, we want to share this passion with our
@@ -31,8 +31,8 @@ export default function AboutPage() {
               height={200}
               className="rounded-full h-[250px] w-[250px] object-cover pb-3"
             />
-            <h2 className="text-center">Sasha Fierro</h2>
-            <p className="text-center pb-10">
+            <h2 className="text-center font-Cardo">Sasha Fierro</h2>
+            <p className="text-center pb-10 font-Cardo">
               Sasha Fierro Founder + Lead Designer
               <br />
               Sasha@RosewoodStudioATL.com Phone?
@@ -64,8 +64,8 @@ export default function AboutPage() {
               height={200}
               className="rounded-full h-[250px] w-[250px] object-cover pb-3"
             />
-            <h2 className="text-center">Farris France</h2>
-            <p className="text-center pb-10">
+            <h2 className="text-center font-Cardo">Farris France</h2>
+            <p className="text-center pb-10 font-Cardo">
               Farris France Managing Partner
               <br />
               Farris@RosewoodStudioATL.com Phone?
