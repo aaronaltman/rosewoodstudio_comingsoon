@@ -50,7 +50,7 @@ export const PRIMARYNAVIGATION = [
   },
   {
     label: "Weddings + Events",
-    href: "/about",
+    href: "/weddings",
   },
   {
     label: "Subscriptions",

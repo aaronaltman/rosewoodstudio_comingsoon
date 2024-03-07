@@ -5,17 +5,17 @@ import { PRIMARYNAVIGATION } from "@/constants/image-gallery";
 
 export default function Header() {
   return (
-    <header className="flex flex-col bg-[#FFFFF0] h-75 w-full justify-center items-center">
-      <Link className="flex justify-center items-center w-full" href="/">
+    <header className="flex flex-col bg-[#FFFFF0] px-4">
+      <Link className="flex justify-center items-center" href="/">
         <Image
-          className="object-contain w-75 h-[75]"
+          className="object-contain"
           src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/RoseWood_Main_FlowerandHome-emerald.png"
           alt="logo"
           width={300}
           height={300}
         />
       </Link>
-      <nav className="flex flex-wrap items-center justify-center w-full py-4">
+      <nav className="flex flex-wrap items-center justify-center py-4">
         <ul className="flex flex-wrap justify-center items-center space-x-8">
           {PRIMARYNAVIGATION.map((navItem) => (
             <li key={navItem.href}>
