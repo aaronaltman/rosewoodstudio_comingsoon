@@ -25,11 +25,11 @@ export default function AboutPage() {
         <div className="grid grid-cols-2 gap-x-20">
           <div className="flex flex-col justify-center items-center">
             <Image
-              src="https://images.unsplash.com/photo-1594803617043-2a5a0829fcd9?q=80&w=2565&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/sasha-scaled.jpeg"
               alt="Sasha Fierro"
               width={200}
               height={200}
-              className="rounded-full h-[250px] w-[250px] object-cover pb-3"
+              className="rounded-full h-[250px] w-[250px] object-cover pb-3 object-top"
             />
             <h2 className="text-center font-Cardo">Sasha Fierro</h2>
             <p className="text-center pb-10 font-Cardo">
@@ -58,11 +58,11 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="https://images.unsplash.com/photo-1562174949-314f9bcf6436?q=80&w=2565&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/farris-scaled.jpeg"
               alt="Sasha Fierro"
               width={200}
               height={200}
-              className="rounded-full h-[250px] w-[250px] object-cover pb-3"
+              className="rounded-full h-[250px] w-[250px] object-cover object-center pb-3"
             />
             <h2 className="text-center font-Cardo">Farris France</h2>
             <p className="text-center pb-10 font-Cardo">

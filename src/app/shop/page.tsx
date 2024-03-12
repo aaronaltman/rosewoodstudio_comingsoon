@@ -2,7 +2,7 @@ import Header from "@/components/header";
 
 export default function ShopPage() {
   return (
-    <div>
+    <div className="bg-[#A07A56]">
       <Header />
     </div>
   );

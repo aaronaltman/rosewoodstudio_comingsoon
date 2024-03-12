@@ -8,7 +8,7 @@ export default function SubscribePage() {
       <h1 className="text-center py-10 text-2xl md:text-3xl lg:text-4xl">
         Subscribe
       </h1>
-      <p className="text-center text-base md:text-lg leading-7 font-Cardo pb-10">
+      <p className="text-center max-w-3xl mx-auto text-base md:text-lg leading-7 font-Cardo pb-10">
         We would love to help you make your home, office, or business space a
         little more beautiful. We offer weekly, biweekly, and monthly
         subscriptions in a variety of sizes to fit all budgets.
@@ -17,9 +17,9 @@ export default function SubscribePage() {
         <Image
           src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/photo3-scaled.jpeg"
           alt="Rosewood Studio Subscription Options"
-          width={200}
-          height={200}
-          className="rounded-sm shadow-sm w-full md:w-[250px] h-auto object-cover"
+          width={250}
+          height={250}
+          className="rounded-sm shadow-sm w-[250px] h-auto object-cover"
         />
         <div className="flex flex-col space-y-4 w-full md:w-auto pb-10">
           <h2 className="text-center text-xl font-bold">Monthly</h2>
@@ -43,11 +43,11 @@ export default function SubscribePage() {
           <p className="font-Cardo text-center"> Bouquet $60</p>
         </div>
         <Image
-          src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/photo3-scaled.jpeg"
+          src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/IMG_7573_Original-scaled.jpeg"
           alt="rosewoodstudio"
-          width={200}
-          height={200}
-          className="rounded-sm shadow-sm w-full md:w-[250px] h-auto object-cover"
+          width={250}
+          height={250}
+          className="rounded-sm shadow-sm w-[250px] h-auto object-cover"
         />
       </div>
     </div>
