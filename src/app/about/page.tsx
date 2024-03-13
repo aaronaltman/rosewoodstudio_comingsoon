@@ -58,11 +58,11 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/farris-scaled.jpeg"
+              src="https://rosewoodstudio.wpenginepowered.com/wp-content/uploads/2024/03/Farris-BIO-scaled.jpeg"
               alt="Sasha Fierro"
               width={200}
               height={200}
-              className="rounded-full h-[250px] w-[250px] object-cover object-center pb-3"
+              className="rounded-full h-[250px] w-[250px] object-cover object-top pb-3"
             />
             <h2 className="text-center font-Cardo">Farris France</h2>
             <p className="text-center pb-10 font-Cardo">
