@@ -36,7 +36,7 @@ export default function SubscribePage() {
           <p className="font-Cardo text-center">Small $120</p>
           <p className="font-Cardo text-center">Bouquet $40</p>
 
-          <h2 className=" text-center text-xl font-bold pt-4">Weekly Large</h2>
+          <h2 className=" text-center text-xl font-bold pt-4">Weekly</h2>
           <p className="font-Cardo text-center">Large $400</p>
           <p className="font-Cardo text-center"> Medium $280</p>
           <p className="font-Cardo text-center"> Small $200</p>
